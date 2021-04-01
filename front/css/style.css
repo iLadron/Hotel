@@ -1,3 +1,101 @@
-.navbar-light .navbar-nav .nav-link:hover {
-    color: #6610f2;
+html{
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar .navbar-nav .nav-link:hover {
+    color:rgb(96, 160, 206);
+    font-weight: 10000;
+}
+a {
+    color: black;
+    font-weight: 500;
+}
+#navbarContent{
+    letter-spacing: 1.5px;
+    color: black;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: right;
+}
+#mulik{
+    text-align: right;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1953&q=80);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#hero::before{
+    content: "";
+    background: rgb(2,0,36);
+    background: linear-gradient(268deg, rgb(19 159 202 / 25%) 0%, rgb(14 88 105 / 25%) 35%, rgb(28 199 184 / 25%) 100%);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+
+}
+#hero h1{
+    font-size: 30px;
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: black;
+    text-align: center;
+    
+}
+#hero .container{
+	z-index: 1000;
+}
+#hero h1:before,#hero h1:after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    max-inline-size: 25%;
+    width: 100%;
+    height: 4px;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: relative;
+   
+}
+
+#hero h1:before {
+    margin-left: -100%; 
+    width: 100%;
+    left: -14px;
+    
+}
+#hero h1:after{
+    margin-right: -100%; 
+    width: 100%;
+    right: -14px;
+}
+#hero h2{
+    font-size: 85px;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+}
+.navbar-nav .dropdown-menu {
+    position: static;
+    background-color: rgb(233, 233, 233);
+}
+.text-center{
+    font-family:'Montserrat', sans-serif ;
+}
+.btn-primary {
+    color: black;
+    background-color: #8dbbd1;
+    border-color: #8dbbd1;
 }
