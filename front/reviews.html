@@ -25,7 +25,7 @@
                             <a href="hotels.html" class="nav-link">Отели</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" id ="navbarDrop" role="button" data-toggle="dropdown" aria-expanded="false">Личный кабинет</a>
+                            <a href="#" class="nav-link dropdown-toggle" id ="navbarDrop" role="button" data-toggle="dropdown" aria-expanded="false">Ваши отзывы</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDrop">
                                 <li><a href="signin.html" class="dropdown-item">Войти</a></li>
                                 <li><a href="singup.html" class="dropdown-item">Зарегистрироваться</a></li>
@@ -40,71 +40,10 @@
     </header>
     <section class="d-flex hotels">
         <div class="container">
-			<div class="listing-item-container init-grid-items fl-wrap three-columns-grid">
-				<!-- listing-item  -->
-				<div class="listing-item has_two_column has_one_column" style="">
-					<article class="geodir-category-listing fl-wrap">
-						<div class="geodir-category-img">
-							<a href="listing-single.html"><img src="http://easybook.kwst.net/images/gal/8.jpg" alt=""></a>
-							<div class="sale-window"><i class="fad fa-bed" aria-hidden="true"></i>Комнат в номере: 6</div>
-							<div class="geodir-category-opt">
-								<div class="listing-rating card-popup-rainingvis">
-									<div class="rating-hotels">
-										<input id="radio1-1" type="radio" name="star-1" value="5" class="star" />
-										<label for="radio1-1">&#9733;</label>
-										<input id="radio2-1" type="radio" name="star-1" value="4" class="star" />
-										<label for="radio2-1">&#9733;</label>
-										<input id="radio3-1" type="radio" name="star-1" value="3" class="star" />
-										<label for="radio3-1">&#9733;</label>
-										<input id="radio4-1" type="radio" name="star-1" value="2" class="star" />
-										<label for="radio4-1">&#9733;</label>
-										<input id="radio5-1" type="radio" name="star-1" value="1" class="star" />
-										<label for="radio5-1">&#9733;</label>
-									  </div>
-								</div>
-								<div class="rate-class-name">
-									<div class="score"><strong>Рейтинг отеля</strong>Premium Plaza Hotel</div>
-									<span>5.0</span>                                             
-								</div>
-							</div>
-						</div>
-						<div class="geodir-category-content fl-wrap">
-							<div class="geodir-category-content-title fl-wrap">
-								<div class="function">
-									<div class="fav">
-										<input id="heart" type="checkbox" />
-										<label for="heart"><i class="fad fa-heart"></i></label>
-										<div class="text">В избранное</div>
-									</div>
-								</div>
-								<div class="geodir-category-content-title-item">
-									<h3 class="title-sin_map"><a href="listing-single.html">Premium Plaza Hotel</a></h3>
-									<div class="geodir-category-location fl-wrap"><a href="#0" class="map-item"><i class="fas fa-map-marker-alt"></i> Нью-Йорк, USA</a></div>
-								</div>
-							</div>
-							<p>Varius massa maecenas et id dictumst mattis” Donec fringilla ac parturient posuere id phasellus erat elementum nullam lacus cursus rhoncus parturient vitae praesent quisque nascetur molestie quis quis Varius massa maecenas et id dictumst mattis”</p>
-							<ul class="facilities-list fl-wrap">
-								<li><i class="fad fa-bus"></i><span>Трансфер</span></li>
-								<li><i class="fad fa-parking"></i><span>Бассейн</span></li>
-								<li><i class="fad fa-glass-martini-alt"></i><span>Барная зона</span></li>
-								<li><i class="fad fa-dog"></i><span>Въезд с животными</span></li>
-								<li><i class="fad fa-wifi"></i><span>Wi-Fi</span></li>
-								<li><i class="fad fa-gamepad-alt"></i><span>Зона отдыха</span></li>
-								<li><i class="fad fa-utensils"></i><span>Завтраки</span></li>
-							</ul>
-							<div class="geodir-category-footer fl-wrap">
-								<div class="geodir-category-price">Цена за сутки:<span>5000₽</span></div>
-								<div class="geodir-opt-list">
-									<a href="#0" class="map-item"><i class="fad fa-angle-double-right"></i>Перейти на сайт</a>
-								</div>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- listing-item end -->          
-				<div class="review-box">
+			<div class="listing-item-container init-grid-items fl-wrap three-columns-grid">    
+				<div class="review-box reviews">
 					<div class="list-single-main-item-title fl-wrap">
-						<h3>Отзывы об отеле</h3>
+						<div class="rew">Оставленные вами отзывы</div>
 					</div>
 					<div class="reviews-comments-wrap">
 						<!-- reviews-comments-item -->  
@@ -156,25 +95,6 @@
 						</div>
 						<!--reviews-comments-item end-->                                                           
 					</div>
-				</div>
-				<div class="review-box form">
-					<form class="custom-form">
-						<div class="list-single-main-item-title fl-wrap">
-							<h3>Были здесь? Оставьте свой отзыв!</h3>
-							<input type="number" name="rating" id="rating-input-more" min="1" max="5" />
-							<div class="rating-review">
-								<div class="rating" role="optgroup">
-									<i class="fa fa-2x rating-star-more fa-star-o" id="rating-more-1" data-rating="1" tabindex="0" role="radio" aria-hidden="true"></i>
-									<i class="fa fa-2x rating-star-more fa-star-o" id="rating-more-2" data-rating="2" tabindex="0" role="radio" aria-hidden="true"></i>
-									<i class="fa fa-2x rating-star-more fa-star-o" id="rating-more-3" data-rating="3" tabindex="0" role="radio" aria-hidden="true"></i>
-									<i class="fa fa-2x rating-star-more fa-star-o" id="rating-more-4" data-rating="4" tabindex="0" role="radio" aria-hidden="true"></i>
-									<i class="fa fa-2x rating-star-more fa-star-o" id="rating-more-5" data-rating="5" tabindex="0" role="radio" aria-hidden="true"></i>
-								</div>
-							</div>
-						</div>
-						<textarea cols="40" rows="2" placeholder="Введите текст вашего отзыва..."></textarea>
-						<button class="btn-more big-btn flat-btn float-btn color2-bg" type="submit">Отправить отзыв<i class="fas fa-paper-plane"></i></button>
-					</form>
 				</div>
 			</div>
         </div>

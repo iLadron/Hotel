@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 	<script src="https://kit.fontawesome.com/2935de2b8e.js" crossorigin="anonymous"></script>
-    <title>Hotels View — Список отелей</title>
+    <title>Hotels View — Избранное</title>
 </head>
 <body>
     <header id="header">
@@ -25,7 +25,7 @@
                             <a href="hotels.html" class="nav-link">Отели</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" id ="navbarDrop" role="button" data-toggle="dropdown" aria-expanded="false">Личный кабинет</a>
+                            <a href="#" class="nav-link dropdown-toggle" id ="navbarDrop" role="button" data-toggle="dropdown" aria-expanded="false">Избранное</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDrop">
                                 <li><a href="signin.html" class="dropdown-item">Войти</a></li>
                                 <li><a href="singup.html" class="dropdown-item">Зарегистрироваться</a></li>
@@ -40,6 +40,9 @@
     </header>
     <section class="d-flex hotels">
         <div class="container">
+			<div class="list-main-wrap-opt fl-wrap">
+				<div class="fav-page">Понравившиеся вам отели</div>
+			</div>
 			<div class="list-main-wrap-opt fl-wrap">
 				<!-- price-opt-->
 				<div class="price-opt">
@@ -101,7 +104,7 @@
 										<div class="text">К сравнению</div>
 									</div>
 									<div class="fav">
-										<input id="heart-1" type="checkbox" />
+										<input id="heart-1" type="checkbox" checked/>
 										<label for="heart-1"><i class="fad fa-heart"></i></label>
 										<div class="text">В избранное</div>
 									</div>
@@ -167,7 +170,7 @@
 										<div class="text">К сравнению</div>
 									</div>
 									<div class="fav">
-										<input id="heart-2" type="checkbox" />
+										<input id="heart-2" type="checkbox" checked/>
 										<label for="heart-2"><i class="fad fa-heart"></i></label>
 										<div class="text">В избранное</div>
 									</div>
@@ -233,7 +236,7 @@
 										<div class="text">К сравнению</div>
 									</div>
 									<div class="fav">
-										<input id="heart-3" type="checkbox" />
+										<input id="heart-3" type="checkbox" checked/>
 										<label for="heart-3"><i class="fad fa-heart"></i></label>
 										<div class="text">В избранное</div>
 									</div>
