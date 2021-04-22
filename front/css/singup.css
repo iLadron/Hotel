@@ -29,7 +29,7 @@ a {
   outline: none; }
 
 .wrapper {
-  min-height: 100vh;
+  min-height: calc(100vh - 115px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +73,9 @@ h3 {
   color: #333;
   letter-spacing: 3px;
   text-align: center;
-  margin-bottom: 33px; }
+  margin-bottom: 33px;
+  font-weight: 800;
+}
 
 .form-holder {
   position: relative;
